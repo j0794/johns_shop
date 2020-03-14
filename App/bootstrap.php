@@ -53,4 +53,12 @@ $container->setSingleton(Smarty::class, [], function($smarty) use ($container) {
     $smarty->cache_dir = $config->get('template.cache_dir');
 });
 
+//$myTest = new \App\Test\MyClassTest();
+//try {
+//    $myTest->testMyMethod();
+//} catch (\Exception $e) {
+//    $message = $e->getMessage();
+//    echo $message;
+//}
+
 $kernel = $container->get(Kernel::class);

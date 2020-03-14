@@ -1,7 +1,8 @@
 .idea
 
 /vendor
-/composer.lock
 /composer.phar
-/var/*/
+/var/templates/cache/*
+/var/templates/compile/*
 /config/config.php
+!/**/.gitkeep
