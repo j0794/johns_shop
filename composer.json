@@ -2,7 +2,7 @@
     "name": "j0794/johns_shop",
     "require": {
         "ext-mysqli": "*",
-        "smarty/smarty": "2.6.31",
+        "smarty/smarty": "3.1.47",
         "fzaninotto/faker": "^1.9"
     },
     "autoload": {
